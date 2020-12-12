@@ -1,0 +1,29 @@
+# exibir localização atual
+$ pwd
+
+# listar arquivos
+ls
+
+# exibir mensagem no prompt
+$ echo
+
+# redirecionar saida
+$ echo "bem vindo" > benvindo.txt
+
+# ler arquivo no terminal
+$ cat benvindo.txt
+
+# exibir arquivos/diretorios com detalhes em lista
+$ ls -l
+
+# exibir arquivos/diretorios com detalhes em lista (incluindo os ocultos)
+$ ls -la
+
+# exibir manual
+# man
+
+# exibir manual do pwd
+# man pwd
+
+###-----------------------------------
+###-----------------------------------
