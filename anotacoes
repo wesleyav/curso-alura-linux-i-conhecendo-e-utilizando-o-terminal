@@ -70,3 +70,14 @@ $ rm -r
 
 ###-----------------------------------
 ###-----------------------------------
+
+# copiar arquivo
+# cp nomedoarquivo nomedonovoarquivo
+$ cp
+
+# mover arquivo
+# mv nomedoarquivo nomedonovoarquivo
+$ mv arquivo1 arquivo2
+
+# copiar diretório
+# cp -r diretório novodiretório
