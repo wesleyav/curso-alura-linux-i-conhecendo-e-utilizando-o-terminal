@@ -159,3 +159,21 @@ $ tail -n 3 nomedoarquivo
 
 # consultar conteúdo de arquivo com função seta de navegação
 $ less nomedoarquivo
+
+###-----------------------------------
+###-----------------------------------
+
+# Editor VI
+
+# vi nomedoarquivo
+
+# editar documento pelo VI
+# com o documento aberto:
+# i - habilita modo de inserção no caractere atual (tecla Esc para sair do modo de inserção)
+# x - remove caractere
+# a - habilita modo de inserção no caracter seguinte
+# dd - remove a linha
+# :w - salva a alteração
+# :q - sai do VI
+# :q! - sai do Vi sem salvar
+# 
