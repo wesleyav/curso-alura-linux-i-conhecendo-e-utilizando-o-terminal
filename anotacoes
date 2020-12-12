@@ -141,3 +141,21 @@ $ tar -cjf work.tar.bz2 workspace/
 
 # Para alterar a data de última modificação do arquivo (não altera conteúdo)
 $ touch nomedoarquivo
+
+###-----------------------------------
+###-----------------------------------
+
+# consultar as 10 primeiras linhas do arquivo
+$ head nomedoarquivo
+
+# consultar um número n de linhas
+$ head -n 3 nomedorquivo
+
+# consultar as 10 últimas linhas do arquivo
+$ tail nomedoarquivo
+
+# consultar um número n de últimas linhas
+$ tail -n 3 nomedoarquivo
+
+# consultar conteúdo de arquivo com função seta de navegação
+$ less nomedoarquivo
