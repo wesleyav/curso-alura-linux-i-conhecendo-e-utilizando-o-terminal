@@ -182,3 +182,8 @@ $ less nomedoarquivo
 # / - buscar padrão de busca
 # n - vai par próxima ocorrência da palavra buscada
 # N - vai para ocorrência anterior
+# yy - copia linha
+# p - cola
+
+###-----------------------------------
+###-----------------------------------
