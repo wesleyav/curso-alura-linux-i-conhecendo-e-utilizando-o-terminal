@@ -135,3 +135,9 @@ $ tar -vxzf nomedoarquivo.tar.gz
 # Para criar um arquivo .tar compactado com o bzip2, substituímos o -z (de gzip) por um -j. 
 # O formato que utilizamos é o .tar.bz2.
 $ tar -cjf work.tar.bz2 workspace/
+
+###-----------------------------------
+###-----------------------------------
+
+# Para alterar a data de última modificação do arquivo (não altera conteúdo)
+$ touch nomedoarquivo
