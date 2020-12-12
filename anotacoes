@@ -80,4 +80,26 @@ $ cp
 $ mv arquivo1 arquivo2
 
 # copiar diretório
-# cp -r diretório novodiretório
+$ cp -r diretório novodiretório
+
+###-----------------------------------
+###-----------------------------------
+
+# compactar diretório
+$ zip nomedoarquivo.zip nome do diretório a ser compactado
+
+# exibir conteúdo do arquivo zipado
+$ unzip -l work.zip
+
+# compactar diretório recursivamente
+$ zip -r nomedoarquivo.zip nome do diretório a ser compactado
+
+# descompactar arquivo
+$ unzip nomedoarquivo.zip
+
+# compactar sem exibir linhas
+$ unzip -q
+
+# compactar sem exibir linhas e recursivamente
+$ unzip -rq nomedoarquivo.zip nome do diretório
+
