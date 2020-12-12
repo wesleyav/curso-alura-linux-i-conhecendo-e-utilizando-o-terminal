@@ -2,7 +2,7 @@
 $ pwd
 
 # listar arquivos
-ls
+$ ls
 
 # exibir mensagem no prompt
 $ echo
@@ -46,3 +46,27 @@ $ cd
 
 $ navegar para pasta nível acima
 # cd ..
+
+###-----------------------------------
+###-----------------------------------
+
+# remover diretório (só remove diretório vazio)
+$ rmdir
+
+# remover arquivo
+# rm
+
+# ler qualquer arquivo que tem o padrão arquivo1
+$ cat arquivo?.txt
+
+# ler todos os arquivos que satisfaçam a busca
+$ cat arquivo*.txt
+
+# ler todos os arquivos .txt
+$ cat *.txt
+
+# remover recursivamente (diretórios e subdiretórios)
+$ rm -r 
+
+###-----------------------------------
+###-----------------------------------
