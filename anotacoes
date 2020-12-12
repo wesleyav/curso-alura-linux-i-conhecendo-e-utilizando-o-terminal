@@ -172,8 +172,13 @@ $ less nomedoarquivo
 # i - habilita modo de inserção no caractere atual (tecla Esc para sair do modo de inserção)
 # x - remove caractere
 # a - habilita modo de inserção no caracter seguinte
+# G - posiciona o cursor na última linha do documento
+# $ - posiciona o cursor para o final da linha
+# 0 - posiciona o cursor para o início da linha
 # dd - remove a linha
 # :w - salva a alteração
 # :q - sai do VI
 # :q! - sai do Vi sem salvar
-# 
+# / - buscar padrão de busca
+# n - vai par próxima ocorrência da palavra buscada
+# N - vai para ocorrência anterior
