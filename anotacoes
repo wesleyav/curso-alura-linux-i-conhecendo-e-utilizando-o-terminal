@@ -84,6 +84,10 @@ $ cp -r diretório novodiretório
 
 ###-----------------------------------
 ###-----------------------------------
+# caso não tenha instalado o zip:
+# apt-get install zip
+# apt-get uninstall zip
+# zip -v
 
 # compactar diretório
 $ zip nomedoarquivo.zip nome do diretório a ser compactado
@@ -98,8 +102,29 @@ $ zip -r nomedoarquivo.zip nome do diretório a ser compactado
 $ unzip nomedoarquivo.zip
 
 # compactar sem exibir linhas
-$ unzip -q
+$ unzip -q (quite)
 
 # compactar sem exibir linhas e recursivamente
 $ unzip -rq nomedoarquivo.zip nome do diretório
 
+###-----------------------------------
+###-----------------------------------
+
+# compactar arquivos com tar 
+$ tar -cz diretório nomedoarquivo zipado
+
+# compactar arquivos com tar
+$ tar -cz nomedodiretório > arquivo.tar.gz
+# redirecionando a saída com >
+
+# descompactar com tar
+$ tar -xz < arquivo.tar.gz
+
+# compactar com tar sem direcionar saída
+$ tar -czf nomedoarquivo.tar.gz nome do diretório
+
+# descompactar com tar
+$ tar -xzf nomedoarquivo.tar.gz
+
+# descompactar com tar me modo mais verboso
+$ tar -vxzf nomedoarquivo.tar.gz
