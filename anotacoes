@@ -27,3 +27,22 @@ $ ls -la
 
 ###-----------------------------------
 ###-----------------------------------
+
+# acessar diretório
+$ cd
+
+# adicionar linhas ao documento
+# >>
+$ echo "Faithless" >> musicas-favoritas.txt
+
+# voltar diretório
+$ cd ..
+
+# criar diretório com título de workspace
+$ mkdir workspace
+
+# navegar para pasta base do usuário
+$ cd
+
+$ navegar para pasta nível acima
+# cd ..
